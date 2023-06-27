@@ -100,6 +100,7 @@ export default {
           this.isShow = true;
         } else {
           this.isShow = false;
+          this.navOffset=0
         }
       }
     },
@@ -127,6 +128,7 @@ export default {
     },
   },
   mounted() {
+    this.setChangeBtnIsShow()
     this.debounceFn = this.debounce(this.setChangeBtnIsShow, 500);
     window.addEventListener("resize", this.debounceFn);
   },
