@@ -27,7 +27,7 @@
           <el-menu-item index="/collpase">导航切换</el-menu-item>         
       </el-submenu>     
     </el-menu>
-    <div style="flex: 1 1 auto;">
+    <div class="main">
         <router-view></router-view>
     </div>
 </div>
@@ -41,7 +41,10 @@ export default {
 }
 </script>
 
-<style>
+<style  scoped>
+.main{
+  width:calc(100% - 200px)
+}
 .el-menu{
     width: 200px;
 }
