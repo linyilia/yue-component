@@ -1,50 +1,28 @@
 <template>
-    <div>
-    <h2>
-        {{child1}}
-    </h2>
-     <Child v-model="child1"></Child >
-    </div>
+  <div id="cesiumContainer" style="width: 100%; height: 100%"></div>
 </template>
-
 <script>
-    import Vue from 'vue' 
-    const child=Vue.extend({
-        name:"child",
-        model:{
-            prop:"childContent",
-            event:"change"
-        },
-        props:{
-            child:String
-        },
-        template:`
-            <section>
-                <h3>自定义student</h3>
-                <h4>属性：{{child}}</h4>
-                <button @click="handle">改变</button>
-                </section>
-        `,
-        methods:{
-            handle(){
-                console.log('handle====');
-                this.$emit('change',"hahhhahahha")
-            }
-        }
-    })
-    export default {
-        components:{
-            child
-        },
-        data(){
-            return{
-              child1:"xixiixixixi"
-            }
-            
-        },
+export default {
+  name: "cesium",
+  mounted() {
+    Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiZTRhNjMwYi01OTMwLTRmMTQtOWJmMS02NjNjNTUxYzVkNWEiLCJpZCI6MTA0ODgzLCJpYXQiOjE2ODk3NTY3Nzh9.SdJgxnfQjIJxAqjKceBo7lEQSxwQ6oN6te-TkdP5M8U";
+    const viewer = new Cesium.Viewer("cesiumContainer");
+   const entity = viewer.entities.add({
+    name: 'plane',
+    position: Cesium.Cartesian3.fromDegrees(102.3187, 24.4923, 0),
+    model: {
+        uri: "http://assets.agi.com/models/launchvehicle.glb",
+        scale: 2,
+        minimumPixelSize: 128, // 最小的模型像素
+        maximumScale: 20000, // 最大的模型像素
+        runAnimations: true, // 是否显示动画
+        clampAnimations: true, // 是否保持最后一针的动画
+        // color: Cesium.Color.RED, // 模型加颜色
+        show: true
     }
+   })
+ 
+   viewer.trackedEntity = entity;
+  },
+};
 </script>
-
-<style lang="scss" scoped>
-
-</style>

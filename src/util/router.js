@@ -107,6 +107,11 @@ const vueRouter = [
         name: "collpase",
         component: () => import("../view/collpase"),
       },
+      {
+        path: "/debounce",
+        name: "debounce",
+        component: () => import("../view/debounce"),
+      },
     ],
   },
 ];

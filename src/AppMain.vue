@@ -24,7 +24,8 @@
           <el-menu-item index="/responsive">响应式</el-menu-item>   
           <el-menu-item index="/convertToPdf">html转换为pdf</el-menu-item>
           <el-menu-item index="/passValue">传值</el-menu-item>
-          <el-menu-item index="/collpase">导航切换</el-menu-item>         
+          <el-menu-item index="/collpase">导航切换</el-menu-item> 
+          <el-menu-item index="/debounce">防抖节流</el-menu-item>        
       </el-submenu>     
     </el-menu>
     <div class="main">
