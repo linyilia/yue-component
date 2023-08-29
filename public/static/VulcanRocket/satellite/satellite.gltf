@@ -1,0 +1,537 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5121,
+      "count": 108,
+      "max": [
+        107
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        4.539979934692383,
+        -0.015354177914559841,
+        0.3468737304210663
+      ],
+      "min": [
+        -4.539979934692383,
+        -0.015357821248471737,
+        -0.3468737304210663
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        -3.8096126786513196e-7,
+        -1,
+        3.066197074019783e-9
+      ],
+      "min": [
+        -4.064696952355007e-7,
+        -1,
+        -1.2484854039485072e-8
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 108,
+      "max": [
+        0.7642340064048767,
+        0.9836209993809462
+      ],
+      "min": [
+        0.3941369950771332,
+        0.3019949793815613
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 12384,
+      "max": [
+        10988
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 10989,
+      "max": [
+        4.543389797210693,
+        0.21900129318237305,
+        0.4002930223941803
+      ],
+      "min": [
+        -4.543389797210693,
+        -0.2110596001148224,
+        -0.4002930223941803
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 10989,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 10989,
+      "max": [
+        0.998354971408844,
+        0.996201999951154
+      ],
+      "min": [
+        0.0010920000495389104,
+        0.002938985824584961
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5123,
+      "count": 18258,
+      "max": [
+        5827
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 5828,
+      "max": [
+        0.538100004196167,
+        1.25600004196167,
+        0.7271220088005066
+      ],
+      "min": [
+        -0.538100004196167,
+        -0.6800000667572021,
+        -0.7271220088005066
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 5828,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 5828,
+      "max": [
+        0.9861530065536499,
+        0.9900000002235174
+      ],
+      "min": [
+        0.0087909996509552,
+        0.009999990463256836
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright 2012, 2018 Analytical Graphics, Inc. All rights reserved.",
+    "generator": "Khronos Blender glTF 2.0 exporter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 0,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 108,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1296,
+      "byteOffset": 1404,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 864,
+      "byteOffset": 2700,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24768,
+      "byteOffset": 3564,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 131868,
+      "byteOffset": 28332,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 131868,
+      "byteOffset": 160200,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 87912,
+      "byteOffset": 292068,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36516,
+      "byteOffset": 379980,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69936,
+      "byteOffset": 416496,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69936,
+      "byteOffset": 486432,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 46624,
+      "byteOffset": 556368,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "satellite_data.bin",
+      "byteLength": 602992
+    }
+  ],
+  "images": [
+    {
+      "name": "body_baseColor",
+      "uri": "satellite_img0.jpg"
+    },
+    {
+      "name": "body_occlusionRoughnessMetallic",
+      "uri": "satellite_img1.jpg"
+    },
+    {
+      "name": "body_normal",
+      "uri": "satellite_img2.jpg"
+    },
+    {
+      "name": "solar_panel_baseColor",
+      "uri": "satellite_img3.jpg"
+    },
+    {
+      "name": "solar_panel_occlusionRoughnessMetallic",
+      "uri": "satellite_img4.jpg"
+    },
+    {
+      "name": "solar_panel_normal",
+      "uri": "satellite_img5.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "body",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "solar_panel",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SolarPanelSurfaceMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "SolarPanelsMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "SatelliteMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "mesh": 2,
+      "name": "Satellite",
+      "extensions": {
+        "AGI_articulations": {
+          "articulationName": "Satellite"
+        }
+      }
+    },
+    {
+      "children": [
+        2
+      ],
+      "mesh": 1,
+      "name": "SolarPanels",
+      "extensions": {
+        "AGI_articulations": {
+          "articulationName": "SolarPanels"
+        }
+      }
+    },
+    {
+      "mesh": 0,
+      "name": "SolarPanelSurface",
+      "extensions": {
+        "AGI_stk_metadata": {
+          "solarPanelGroupName": "Panels"
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ],
+  "extensions": {
+    "AGI_articulations": {
+      "articulations": [
+        {
+          "name": "SolarPanels",
+          "stages": [
+            {
+              "name": "Rotate",
+              "type": "xRotate",
+              "minimumValue": -360,
+              "maximumValue": 360,
+              "initialValue": 0
+            },
+            {
+              "name": "Size",
+              "type": "uniformScale",
+              "minimumValue": 0,
+              "maximumValue": 1,
+              "initialValue": 1
+            }
+          ],
+          "pointingVector": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "name": "Satellite",
+          "stages": [
+            {
+              "name": "MoveX",
+              "type": "xTranslate",
+              "minimumValue": -1000,
+              "maximumValue": 1000,
+              "initialValue": 0
+            },
+            {
+              "name": "MoveY",
+              "type": "yTranslate",
+              "minimumValue": -1000,
+              "maximumValue": 1000,
+              "initialValue": 0
+            },
+            {
+              "name": "MoveZ",
+              "type": "zTranslate",
+              "minimumValue": -1000,
+              "maximumValue": 1000,
+              "initialValue": 0
+            },
+            {
+              "name": "Yaw",
+              "type": "yRotate",
+              "minimumValue": -360,
+              "maximumValue": 360,
+              "initialValue": 0
+            },
+            {
+              "name": "Pitch",
+              "type": "xRotate",
+              "minimumValue": -360,
+              "maximumValue": 360,
+              "initialValue": 0
+            },
+            {
+              "name": "Roll",
+              "type": "zRotate",
+              "minimumValue": -360,
+              "maximumValue": 360,
+              "initialValue": 0
+            },
+            {
+              "name": "Size",
+              "type": "uniformScale",
+              "minimumValue": 0,
+              "maximumValue": 1,
+              "initialValue": 1
+            }
+          ]
+        }
+      ]
+    },
+    "AGI_stk_metadata": {
+      "solarPanelGroups": [
+        {
+          "name": "Panels",
+          "efficiency": 14
+        }
+      ]
+    }
+  },
+  "extensionsUsed": [
+    "AGI_articulations",
+    "AGI_stk_metadata"
+  ]
+}

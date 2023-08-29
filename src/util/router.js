@@ -112,6 +112,16 @@ const vueRouter = [
         name: "debounce",
         component: () => import("../view/debounce"),
       },
+      {
+        path: "/cors",
+        name: "cors",
+        component: () => import("../view/cors"),
+      },
+      {
+        path: "/dragCard",
+        name: "dragCard",
+        component: () => import("../view/dragCard.vue"),
+      },
     ],
   },
 ];

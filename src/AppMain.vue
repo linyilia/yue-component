@@ -25,7 +25,9 @@
           <el-menu-item index="/convertToPdf">html转换为pdf</el-menu-item>
           <el-menu-item index="/passValue">传值</el-menu-item>
           <el-menu-item index="/collpase">导航切换</el-menu-item> 
-          <el-menu-item index="/debounce">防抖节流</el-menu-item>        
+          <el-menu-item index="/debounce">防抖节流</el-menu-item> 
+          <el-menu-item index="/cors">跨域</el-menu-item>
+          <el-menu-item index="/dragCard">拖拽卡片</el-menu-item>       
       </el-submenu>     
     </el-menu>
     <div class="main">

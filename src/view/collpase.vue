@@ -1,6 +1,5 @@
 <template>
   <div class="menu-box">
-    1111
     <div
       v-show="isShow"
       class="left-icon el-icon-d-arrow-left"
