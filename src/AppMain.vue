@@ -27,7 +27,8 @@
           <el-menu-item index="/collpase">导航切换</el-menu-item> 
           <el-menu-item index="/debounce">防抖节流</el-menu-item> 
           <el-menu-item index="/cors">跨域</el-menu-item>
-          <el-menu-item index="/dragCard">拖拽卡片</el-menu-item>       
+          <el-menu-item index="/dragCard">拖拽卡片</el-menu-item>
+          <el-menu-item index="/request">请求</el-menu-item>        
       </el-submenu>     
     </el-menu>
     <div class="main">

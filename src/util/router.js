@@ -122,6 +122,11 @@ const vueRouter = [
         name: "dragCard",
         component: () => import("../view/dragCard.vue"),
       },
+      {
+        path: "/request",
+        name: "request",
+        component: () => import("../view/request.vue"),
+      },
     ],
   },
 ];
