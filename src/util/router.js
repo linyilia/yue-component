@@ -127,6 +127,11 @@ const vueRouter = [
         name: "request",
         component: () => import("../view/request.vue"),
       },
+      {
+        path: "/csslayout",
+        name: "csslayout",
+        component: () => import("../view/cssLayout.vue"),
+      },
     ],
   },
 ];

@@ -1,28 +1,110 @@
 <template>
-  <div id="cesiumContainer" style="width: 100%; height: 100%"></div>
+  <div id="app">
+      <p ref="dom" id="op">{{ message }}</p>
+  </div>
 </template>
 <script>
 export default {
   name: "cesium",
-  mounted() {
-    Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiZTRhNjMwYi01OTMwLTRmMTQtOWJmMS02NjNjNTUxYzVkNWEiLCJpZCI6MTA0ODgzLCJpYXQiOjE2ODk3NTY3Nzh9.SdJgxnfQjIJxAqjKceBo7lEQSxwQ6oN6te-TkdP5M8U";
-    const viewer = new Cesium.Viewer("cesiumContainer");
-   const entity = viewer.entities.add({
-    name: 'plane',
-    position: Cesium.Cartesian3.fromDegrees(102.3187, 24.4923, 0),
-    model: {
-        uri: "http://assets.agi.com/models/launchvehicle.glb",
-        scale: 2,
-        minimumPixelSize: 128, // 最小的模型像素
-        maximumScale: 20000, // 最大的模型像素
-        runAnimations: true, // 是否显示动画
-        clampAnimations: true, // 是否保持最后一针的动画
-        // color: Cesium.Color.RED, // 模型加颜色
-        show: true
+  data(){
+    return{
+       message: 'hello world',
+
     }
-   })
- 
-   viewer.trackedEntity = entity;
+  },
+  methods: {
+    changeValue() {
+      this.message = 'hello zhangShan'
+      console.log(this.$refs.dom.innerText)
+    },
+    changeValue1() {
+      this.message = 'hello zhangShan'
+      this.message = 'hello liShi'
+      this.message = 'hello wangWu'
+      this.message = 'hello chenLiu'
+      console.log(this.$refs.dom.innerText)
+    },
+    defineProperty(){
+      let obj={}
+      Object.defineProperty(obj,"name",{
+        value:1
+      })
+      return obj
+    },
+    defineProperty1() {
+      let obj = {}
+      Object.defineProperties(obj,{
+        name: {
+          value:1,
+          writable:true,
+        
+          delete:true
+        },
+        id:{
+          value:"111"
+        }
+      })
+      return obj
+    },
+    defineProperty2(){
+      let _obj={}
+      let a=1
+      Object.defineProperties(_obj,{
+        a:{
+          get(){
+
+          },
+          set(val){
+             a = val
+            let op=document.getElementById("op")           
+            op.innerHTML=a
+          }
+        },
+        b:{
+
+        }
+        
+      })
+      return _obj
+    }
+  },
+  mounted() {
+    // console.log(obj)
+    // var obj= this.defineProperty1()
+    // obj.name=2
+    // // delete obj.name
+    // console.log("111",obj)
+
+    // let _obj= this.defineProperty2()
+    // _obj.a="1111"
+
+    let _obj={}
+    _obj.a="1111w"
+    this.message= _obj.a
+    
+    // // 第一步
+    // this.message = 'aaa'
+
+    // // 第二步
+    // setTimeout(() => {
+    //   console.log('222')
+    // })
+
+    // // 第三步
+    // Promise.resolve().then((res) => {
+    //   console.log('333')
+    // })
+
+    // // 第四步
+    // this.$nextTick(() => {
+    //   console.log('444')
+    //   console.log(this.$refs.dom)
+    // })
+
+    // // 第五步
+    // Promise.resolve().then((res) => {
+    //   console.log('555')
+    // })
   },
 };
 </script>
